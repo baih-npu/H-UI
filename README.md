@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+## 笔记
+### _variables.scss
+全局变量中都添加了`!default`关键字
+darken 是scss提供的一个函数，用来将字体变暗
+
+### _reboot.scss
+把normalize.css 拷贝过来，normalize.css是一个非常受欢迎的css库，相当于reset.css
+把里面的值都用我们定义的变量一一替换
