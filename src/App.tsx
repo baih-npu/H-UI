@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button btnType={ButtonType.Default}>
+        <Button btnType={ButtonType.Default} onClick={() => { console.log('btn1') }}>
           Button1
         </Button>
-        <Button btnType={ButtonType.Link} size={ButtonSize.Large} href="http://www.baidu.com">
+        <Button btnType={ButtonType.Link} size={ButtonSize.Large} href="http://www.baidu.com" target="_black">
           Link Button
         </Button>
         <Button btnType={ButtonType.Default} disabled>
